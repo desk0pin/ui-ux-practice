@@ -1,0 +1,46 @@
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: #0066cc;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #004499;
+}
+
+/* Image container - float image to right */
+.image-container img {
+  float: right;            /* aligns image to right */
+  margin: 0 0 20px 20px;   /* space: top 0, right 0, bottom 20px, left 20px */
+  max-width: 300px;        /* keeps image reasonable size */
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+  overflow: hidden;        /* ensures section wraps correctly around floated image */
+}
